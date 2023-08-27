@@ -1,0 +1,106 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(34, 25, 138);
+    background-color: rgb(44, 39, 94);
+}
+
+.card{
+    width: 50%;
+    max-width: 45rem;
+    height: 25rem;
+    border-radius: 1rem;
+    background-color: rgb(1, 27, 43);
+    box-shadow: 3px 1px 82px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 1px 82px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 1px 82px 0px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: row;
+}
+
+.currentInfo{
+    height: 100%;
+    width: 50%;
+    border-radius: 1rem;
+    background: url(/asset/sunnyDay.jpeg);
+    background-repeat: no-repeat;
+    background-size: 45rem;
+}
+
+.currentDateInfo{
+    padding: 2rem 2rem 0 2rem;
+    font-size: 1.3rem;
+}
+
+.currentDayInfo{
+    font-weight: 900;
+}
+
+.currentFullDateInfo{
+    font-weight: 200;
+}
+
+.icon{
+    font-size: 4rem;
+    color: rgb(227, 227, 18);
+    padding: 2rem 2rem 0 2rem ;
+}
+
+.weatherDegree{
+    padding: 0 0 0 2rem;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.rightSide{
+    color: aliceblue;
+    padding: 2rem 0 2rem 2rem;
+    width: 50%;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.location{
+    margin-bottom: 2rem;
+    height: 2rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.getInfo{
+    width: 100%;
+    
+}
+
+.getButton{
+    height: 2rem;
+    border: none;
+    outline: none;
+    margin-left: 0.1rem;
+    border-radius: 0 1rem 1rem 0;
+    color: rgb(44, 39, 94);
+    font-weight: 200;
+}
+
+.getButton:hover{
+    color: rgb(56, 50, 114);
+    cursor: pointer;
+    background-color: #ffe;
+}
+
+.getButton:active{
+    color: #ffe;
+    background-color: rgb(44, 39, 94);
+    transition: 0.1s;
+}
